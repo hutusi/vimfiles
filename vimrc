@@ -1,4 +1,4 @@
-" Use Vim settings, rather then Vi settings (much better!).
+
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
@@ -68,7 +68,7 @@ filetype plugin on
 filetype indent on
 
 " Display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:·
+set list listchars=tab:\ \ ,trail:.
 
 set nowrap       "Don't wrap lines
 set linebreak    "Wrap lines at convenient points
@@ -101,4 +101,7 @@ set sidescrolloff=15
 set sidescroll=1
 
 " ================ Custom Settings ========================
-" so ~/.vim/settings.vim
+if filereadable(expand("~/vimfiles/settings.vim"))
+  source ~/vimfiles/settings.vim
+endif
+
