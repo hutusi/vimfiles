@@ -36,8 +36,8 @@ syntax on
 " =============== Vundle Initialization ===============
 " This loads all the plugins specified in ~/.vim/vundle.vim
 " Use Vundle plugin to manage all other plugins
-if filereadable(expand("~/.vim/vundles.vim"))
-  source ~/.vim/vundles.vim
+if filereadable(expand("~/vimfiles/vundles.vim"))
+  source ~/vimfiles/vundles.vim
 endif
 
 " ================ Turn Off Swap Files ==============
@@ -101,4 +101,4 @@ set sidescrolloff=15
 set sidescroll=1
 
 " ================ Custom Settings ========================
-so ~/.vim/settings.vim
+" so ~/.vim/settings.vim
