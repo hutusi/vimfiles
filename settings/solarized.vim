@@ -65,5 +65,5 @@ hi! Type gui=bold
 hi! EasyMotionTarget guifg=#4CE660 gui=bold
 
 " Make sure this file loads itself on top of any other color settings
-au VimEnter * so ~/vimfiles/settings/solarized.vim
+au VimEnter * so ~/.vim/settings/solarized.vim
 

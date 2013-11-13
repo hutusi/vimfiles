@@ -10,7 +10,7 @@
 " Filetype off is required by vundle
 filetype off
 
-set rtp+=~/vimfiles/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle (required)
