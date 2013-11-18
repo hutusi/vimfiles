@@ -1,9 +1,20 @@
-vimfiles  My gVim files on windows
-==================================
+@hutusi 's vimfiles on Mac/ Linux/ Windows
+==========================================
 
 ## Usage
 
+### Mac & Linux:
+
+`git clone --recursive https://github.com/hutusi/vimfiles.git`
+
+or go to clone my dotfiles reposiroty:
+
+https://github.com/hutusi/dotfiles
+
+### Windows:
+
 `cd %USERPROFILE%`
+
 `git clone --recursive https://github.com/hutusi/vimfiles.git`
 
 see also: [https://github.com/gmarik/vundle/wiki/Vundle-for-Windows]
