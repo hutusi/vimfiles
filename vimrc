@@ -1,4 +1,4 @@
-
+" Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
@@ -10,14 +10,16 @@ endif
 
 " ================ General Config ====================
 
+set encoding=utf-8              "encoding
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
-set showcmd                     "Show incomplete cmds down the bottom
-set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+set showcmd                     "Show incomplete cmds down the bottom
+set noshowmode                  "Not show current mode down the bottom
+set laststatus=2                "Show status bar always
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
@@ -68,7 +70,7 @@ filetype plugin on
 filetype indent on
 
 " Display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:.
+set list listchars=tab:\ \ ,trail:·
 
 set nowrap       "Don't wrap lines
 set linebreak    "Wrap lines at convenient points
