@@ -29,6 +29,11 @@ Bundle "jistr/vim-nerdtree-tabs"
 Bundle "altercation/vim-colors-solarized"
 Bundle "bling/vim-airline"
 
+" Ruby, Rails, Rake...
+Bundle "vim-ruby/vim-ruby"
+Bundle "astashov/vim-ruby-debugger"
+Bundle "ecomba/vim-ruby-refactoring"
+
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
 " allow the user to add vim plugins to dotfiles without the need for a fork.
