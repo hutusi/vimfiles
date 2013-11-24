@@ -24,6 +24,8 @@ Bundle "tpope/vim-fugitive"
 " General vim improvements
 Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
+Bundle "scrooloose/syntastic"
+Bundle "kien/ctrlp.vim"
 
 " Cosmetics, color scheme, Powerline...
 Bundle "altercation/vim-colors-solarized"
@@ -35,6 +37,9 @@ Bundle "astashov/vim-ruby-debugger"
 Bundle "ecomba/vim-ruby-refactoring"
 Bundle "tpope/vim-rails"
 Bundle "tpope/vim-rake"
+
+" markdown
+Bundle "plasticboy/vim-markdown"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
