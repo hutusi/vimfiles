@@ -33,6 +33,8 @@ Bundle "bling/vim-airline"
 Bundle "vim-ruby/vim-ruby"
 Bundle "astashov/vim-ruby-debugger"
 Bundle "ecomba/vim-ruby-refactoring"
+Bundle "tpope/vim-rails"
+Bundle "tpope/vim-rake"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
